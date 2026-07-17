@@ -1,5 +1,5 @@
-# Gelion SRHR — System Architecture & Implementation Specification
-## Version 7.2.0 — Multimodal Hierarchical Cascade with Algebraic VSA Rotations
+# Gelion SRHR - System Architecture & Implementation Specification
+## Version 7.2.0 - Multimodal Hierarchical Cascade with Algebraic VSA Rotations
 
 ---
 
@@ -22,28 +22,28 @@ The SRHR v7.2.0 cognitive pipeline consists of six sequential and mutually coupl
                                      |
                                      v
 ====================================================================
-  LAYER 1: WIRN L1 — Sensor Wave Substrate (128 x 128 Grid)
+  LAYER 1: WIRN L1 - Sensor Wave Substrate (128 x 128 Grid)
   - Continuous wave propagation over a high-resolution grid.
   - Multi-modal sequential or spatial token injection.
 ====================================================================
                                      |  |Ψ_l1(r,t)|^2
                                      v
 ====================================================================
-  LAYER 2: STHE L1 — Topological Feature Extraction
+  LAYER 2: STHE L1 - Topological Feature Extraction
   - DSU reduction over the 128 x 128 grid.
   - Calculation of birth-death persistence intervals H_0 and H_1.
 ====================================================================
                                      |  D_l1 = { (b_k, d_k) }
                                      v
 ====================================================================
-  LAYER 1B: WIRN L2 — Abstract Relation Substrate (64 x 64 Grid)
+  LAYER 1B: WIRN L2 - Abstract Relation Substrate (64 x 64 Grid)
   - Coupling of L1 persistence diagrams as energy sources into L2.
   - Simulates the "topology of the thought" instead of raw tokens.
 ====================================================================
                                      |  |Ψ_l2(r,t)|^2
                                      v
 ====================================================================
-  LAYER 2B: STHE L2 — Second-Order Topological Encoding
+  LAYER 2B: STHE L2 - Second-Order Topological Encoding
   - DSU reduction over the 64 x 64 grid.
   - RFF (Random Fourier Features) sign-encoding into V_context.
 ====================================================================
@@ -76,7 +76,7 @@ The SRHR v7.2.0 cognitive pipeline consists of six sequential and mutually coupl
 
 ---
 
-## 3. Layer 1 & 1B — Dual-Layer Cascade WIRN
+## 3. Layer 1 & 1B - Dual-Layer Cascade WIRN
 
 To bridge raw input processing with abstract relational reasoning, SRHR v7.2.0 implements a multi-layered biological-cortex-like wave cascade.
 
@@ -102,7 +102,7 @@ Where the amplitude of the injected wave is directly proportional to the lifetim
 
 ---
 
-## 4. Layer 2 & 2B — STHE (Simplicial Topological Homology Encoder)
+## 4. Layer 2 & 2B - STHE (Simplicial Topological Homology Encoder)
 
 STHE performs discrete union-find reduction (persistent homology) over the active fields.
 
@@ -124,7 +124,7 @@ This encodes the deep, second-order topological features of the conversation int
 
 ---
 
-## 5. Layer 4 & 4.5 — Generative Decoder with Algebraic VSA Rotations
+## 5. Layer 4 & 4.5 - Generative Decoder with Algebraic VSA Rotations
 
 Autoregressive token generation is performed by a statistical decoder head. To achieve robust abstract reasoning without structural contamination, SRHR v7.2.0 implements formal algebraic VSA operations on the context vector during deliberation.
 
@@ -143,7 +143,7 @@ Once the model outputs the closing delimiter `</thought>`, the active state is r
 
 ---
 
-## 6. Layer 5 — Robust Sandbox First-Block Isolation
+## 6. Layer 5 - Robust Sandbox First-Block Isolation
 
 To prevent sandboxed execution failures, Layer 5 isolates and compiles strictly the first Markdown code block within the output sequence, ignoring all supplementary text, compiler guides, or bash instructions:
 
