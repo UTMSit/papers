@@ -172,3 +172,11 @@ The following matrix compares Gelion SRHR's architectural specifications with tr
 | **Online Plasticity** | Natively supported via fast weights | Natively supported via fast weights | Unsupported; weights are frozen |
 | **Semantic Density** | $10 \times$ higher due to topological priors | $50 \times$ higher due to topological priors | Low; must learn syntax and copying from raw statistics |
 | **Logic Stack Depth** | Two-layer wave cascade + VSA algebra | Two-layer wave cascade + VSA algebra | Stack of 32-80 sequential attention layers |
+
+## Screenshots
+
+<img width="1825" height="960" alt="image" src="https://github.com/user-attachments/assets/619213d9-24e3-422a-8e9b-8060c0d9e247" />
+
+(right now my dataset is 90% russian so i have 2 screenshots for this)
+
+<img width="935" height="788" alt="image" src="https://github.com/user-attachments/assets/66bbeecd-5453-42de-83f6-c141b6d6a59b" />
