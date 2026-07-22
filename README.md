@@ -9,3 +9,4 @@
 **AI researches:**
 - FLETTOHMv2.2 (old version)
 - SRHRv7.2 (old version)
+- SRHRv9.0 (pretty new version, have bugs in it)
